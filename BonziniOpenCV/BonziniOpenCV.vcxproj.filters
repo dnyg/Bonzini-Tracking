@@ -15,36 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bonzini.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="goalkeeper.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ball.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="stuff.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="score.cpp">
+    <ClCompile Include="src\bonzini.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\goalkeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stuff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ball.h">
+    <ClInclude Include="include\ball.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bonzini.h">
+    <ClInclude Include="include\bonzini.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="goalkeeper.h">
+    <ClInclude Include="include\goalkeeper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="score.h">
+    <ClInclude Include="include\score.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

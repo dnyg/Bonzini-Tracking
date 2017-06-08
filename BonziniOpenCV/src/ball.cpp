@@ -1,4 +1,4 @@
-#include "ball.h";
+#include "../include/ball.h";
 
 Ball::Ball() {
 	position = Point(-100, -100);

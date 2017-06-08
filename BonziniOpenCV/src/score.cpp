@@ -1,4 +1,4 @@
-#include "score.h"
+#include "../include/score.h"
 
 void Score::write(Mat frame, string text) {
 	drawBackground(frame, background_position);

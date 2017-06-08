@@ -1,4 +1,4 @@
-#include "bonzini.h";
+#include "../include/bonzini.h";
 
 Bonzini::Bonzini(string filename)
 {

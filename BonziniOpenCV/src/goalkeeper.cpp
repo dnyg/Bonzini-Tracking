@@ -1,4 +1,4 @@
-#include "goalkeeper.h"
+#include "../include/goalkeeper.h"
 
 GoalKeeper::GoalKeeper() {
 	goalTime = time(0);

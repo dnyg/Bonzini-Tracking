@@ -146,18 +146,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ball.cpp" />
-    <ClCompile Include="bonzini.cpp" />
-    <ClCompile Include="goalkeeper.cpp" />
+    <ClCompile Include="src\ball.cpp" />
+    <ClCompile Include="src\bonzini.cpp" />
+    <ClCompile Include="src\goalkeeper.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="score.cpp" />
-    <ClCompile Include="stuff.cpp" />
+    <ClCompile Include="src\score.cpp" />
+    <ClCompile Include="src\stuff.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ball.h" />
-    <ClInclude Include="bonzini.h" />
-    <ClInclude Include="goalkeeper.h" />
-    <ClInclude Include="score.h" />
+    <ClInclude Include="include\ball.h" />
+    <ClInclude Include="include\bonzini.h" />
+    <ClInclude Include="include\goalkeeper.h" />
+    <ClInclude Include="include\score.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
