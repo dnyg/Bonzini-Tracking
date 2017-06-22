@@ -2,7 +2,7 @@
 
 int main(int, char**)
 {
-	Bonzini bonzini("Z:\\Bordfodbold\\cut.mp4");
+	Bonzini bonzini("examples\\mov01.mp4");
 	bonzini.start(1);
 	return 0;
 }
