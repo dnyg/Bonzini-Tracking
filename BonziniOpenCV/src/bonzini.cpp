@@ -44,6 +44,7 @@ bool Bonzini::getFrame() {
 	return validFrame;
 }
 
+//For testing purposes
 void Bonzini::skipFrames(int number) {
 	for (size_t i = 0; i < number; i++)
 	{

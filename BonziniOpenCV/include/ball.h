@@ -19,4 +19,5 @@ private:
 	Point findBiggestContour(vector<vector<Point>> contours);
 	Scalar green_lower = Scalar(25, 90, 90);
 	Scalar green_upper = Scalar(30, 255, 255);
+	int circle_radius;
 };

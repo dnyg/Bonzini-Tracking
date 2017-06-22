@@ -4,6 +4,7 @@ Ball::Ball() {
 	position = Point(-100, -100);
 	green_lower = Scalar(25, 90, 90);
 	green_upper = Scalar(30, 255, 255);
+	circle_radius = 12;
 }
 
 void Ball::find(Mat frame) {
@@ -66,5 +67,5 @@ Point Ball::getCenter(vector<Point> position) {
 }
 
 void Ball::drawCircle(Mat frame) {
-	circle(frame, position, 15, Scalar(0, 255, 255), 2);
+	circle(frame, position, circle_radius, Scalar(0, 255, 255), 2);
 }
